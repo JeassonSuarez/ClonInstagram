@@ -116,7 +116,7 @@ li{
 }*/
 
 .card-content{
-    padding: 1rem;
+    padding: 1rem ;
 }
 
 /* .card-btn{
@@ -144,4 +144,58 @@ button{
 #guardar{
     grid-column: 2/5;
     justify-self: end;
+}
+
+.informacion{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.comentario{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+#agregaComentario{
+    grid-column: 2/9;
+}
+
+.inf{
+    padding: 2px;
+    padding-left: 0;
+}
+
+.descripcion{
+    grid-row: 2/4;
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);
+}
+
+.inf>p{
+    margin: 2px;
+}
+
+.container{
+    margin-bottom: 15px;
+}
+
+#comentario{
+    border: none;
+    width: 100%;
+}
+
+.comentario>div{
+    margin:auto 0;
+}
+
+.emoji{
+    padding-right: 4px;
+    display:flex;
+    justify-content:end
+}
+
+.btn{
+    margin: 0 0 0 9px;
+    color: rgb(59, 140, 245);
+    font-weight: bold;
 }
